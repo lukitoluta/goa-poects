@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <link rel="stylesheet" href="progress.css">
+    <style>
+        .progress{
+            color: aliceblue;
+        }
+        ul{
+            color: aliceblue;
+        }
+        h2{
+            color: aliceblue;
+        }
+        .progress-line{
+   display: flex;
+   margin-left: 300px;
+   border: 2px;
+   border-radius: 15px;
+   cursor: pointer;
+   transition: all 0.3s ease; 
+   color: rgb(255, 249, 246);
+   background-color: rgb(255, 178, 69);
+    }
+    .progress-line:hover{
+      background-color: rgba(254, 180, 95, 0.953);
+    }
+    a{
+        text-decoration: underline;
+        text-decoration: none;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <section class="skills">
+        <h2>Skills</h2>
+        
+       
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>javascript (starting soon)</li>
+        </ul>
+ <div>
+    <p style="color: aliceblue; text-align: center;">________________________________________________</p>
+ </div>
+      
+        <div class="progress">
+            <label for="html">HTML</label>
+            <div class="bar">
+                <div class="filled" style="width: 100%;"></div>
+            </div>
+        </div>
+        <div class="progress">
+            <label for="css">CSS</label>
+            <div class="bar">
+                <div class="filled" style="width: 100%;"></div>
+            </div>
+        </div>
+        <div class="progress">
+            <label for="javascript">javascript</label>
+            <div class="bar">
+                <div class="filled" style="width: 2%;"></div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <div>
+        <a href="index1.html"><button class="progress-line" style="height: 20px; width: 100px; ">press to go back</button></a>
+    </div>
+</body>
+</html>
+
